@@ -111,6 +111,10 @@ display: flex;
 .icon{
     align-items: flex-start;
     width: 33.33%;
+    border: ;
+    border-radius: 16px;
+    padding: 0px;
+    margin: 18px;
 }
 .skill-section{
 margin: auto;
@@ -139,24 +143,49 @@ text-align: start;
     font-size: 24px;
     
 }
-
-
 .skill-container{
     display: flex;
-
 }
-
-
-.footer-section{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+#icon-1{
+background-color: rgba(255, 76, 30, 0.05);
 }
-/* .current-target{
-    display: flex;
-} */
+#icon-2{
+background-color: rgba(0, 76, 232, 0.05);
+}
+#icon-3{
+    background-color:rgba(255, 223, 0, 0.05);
+}
 .video{
     display: flex;
 justify-content: center;
 align-items: center;
 }
+.foot-banner{
+    background-image: url("../assets/handshake.jpg");
+    width: 1140px;
+    height: 315px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;}
+    .foot-title{
+        color: rgb(255, 255, 255);
+    }
+.form-feedback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+
+}
+
+
